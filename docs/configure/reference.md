@@ -48,10 +48,10 @@ A list of user accounts created during genesis of the blockc
 ```yaml
 accounts:
   - name: alice
-    coins: ["1000token", "100000000stake"]
+    coins: ["1000EQUA", "100000000stake"]
   - name: bob
-    coins: ["500token"]
-    address: cosmos1adn9gxjmrc3hrsdx5zpc9sj2ra7kgqkmphf8yw
+    coins: ["500EQUA"]
+    address: equa1adn9gxjmrc3hrsdx5zpc9sj2ra7kgqkmphf8yw
 ```
 
 ## `build`
@@ -90,8 +90,8 @@ The faucet service sends tokens to addresses. The default address for the web us
 ```yaml
 faucet:
   name: faucet
-  coins: ["100token", "5foo"]
-  coins_max: ["2000token", "1000foo"]
+  coins: ["100EQUA", "5foo"]
+  coins_max: ["2000EQUA", "1000foo"]
   port: 4500
 ```
 
@@ -109,7 +109,7 @@ A blockchain requires one or more validators.
 ```yaml
 accounts:
   - name: alice
-    coins: ["1000token", "100000000stake"]
+    coins: ["1000EQUA", "100000000stake"]
 validator:
   name: user1
   staked: "100000000stake"
