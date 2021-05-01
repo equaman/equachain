@@ -17,7 +17,7 @@ To change the value of one parameter, add the key-value pair under the `genesis`
 
 ```yml
 genesis:
-  chain_id: "foobar"
+  chain_id: "equacash"
 ```
 
 ## Change values in modules
